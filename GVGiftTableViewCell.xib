@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GiftCell" rowHeight="70" id="KGk-i7-Jjw" customClass="GVGiftTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="370" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0X-zo-g2s">
+                        <rect key="frame" x="73" y="11" width="219" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="CrX-xn-ru1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="CrX-xn-ru1"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s10-J0-0bx">
+                        <rect key="frame" x="302" y="20" width="60" height="30"/>
+                        <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="UIa-ea-C2L"/>
+                        </constraints>
+                        <state key="normal" title="Buy">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m6t-ry-Hvn">
+                        <rect key="frame" x="8" y="11" width="53" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="53" id="07z-61-pNv"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jR1-Wb-hKc">
+                        <rect key="frame" x="73" y="43" width="35" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="s10-J0-0bx" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="4nE-bI-eVa"/>
+                    <constraint firstItem="jR1-Wb-hKc" firstAttribute="leading" secondItem="m6t-ry-Hvn" secondAttribute="trailing" constant="12" id="Ixq-2J-REh"/>
+                    <constraint firstItem="s10-J0-0bx" firstAttribute="leading" secondItem="A0X-zo-g2s" secondAttribute="trailing" constant="10" id="Scn-sf-9Ip"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="s10-J0-0bx" secondAttribute="trailing" id="UKI-Wm-9UN"/>
+                    <constraint firstItem="A0X-zo-g2s" firstAttribute="leading" secondItem="m6t-ry-Hvn" secondAttribute="trailing" constant="12" id="V7u-D6-Kea"/>
+                    <constraint firstItem="jR1-Wb-hKc" firstAttribute="bottom" secondItem="m6t-ry-Hvn" secondAttribute="bottom" id="pDS-Wz-Lhi"/>
+                    <constraint firstItem="m6t-ry-Hvn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3" id="pP0-to-mkC"/>
+                    <constraint firstItem="m6t-ry-Hvn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="pQH-NG-AXW"/>
+                    <constraint firstItem="m6t-ry-Hvn" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="vfU-k7-Kk3"/>
+                    <constraint firstItem="A0X-zo-g2s" firstAttribute="top" secondItem="m6t-ry-Hvn" secondAttribute="top" id="xDr-od-WNL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="buyButton" destination="s10-J0-0bx" id="tXL-ni-Kyk"/>
+                <outlet property="priceLabel" destination="jR1-Wb-hKc" id="2LR-Gl-cqR"/>
+                <outlet property="thumbnailImageView" destination="m6t-ry-Hvn" id="oMn-9f-uzf"/>
+                <outlet property="titleLabel" destination="A0X-zo-g2s" id="Ju1-0m-n3b"/>
+            </connections>
+            <point key="canvasLocation" x="295" y="316"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E9B4FA6ADB735C849DF6306 /* libPods-Gifty Viewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F7B926CBF036C124C5E426 /* libPods-Gifty Viewer.a */; };
+		FF1311B11D6860DB003EDA36 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1311B01D6860DB003EDA36 /* Firebase.framework */; };
+		FF6D4CA31D67910A002F6A13 /* GVGiftStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6D4CA21D67910A002F6A13 /* GVGiftStore.m */; };
+		FF6D4CA51D67B77D002F6A13 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6D4CA41D67B77D002F6A13 /* libicucore.tbd */; };
+		FF6D4CA71D67B788002F6A13 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6D4CA61D67B788002F6A13 /* libc++.tbd */; };
+		FF6D4CA91D67B791002F6A13 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6D4CA81D67B791002F6A13 /* CFNetwork.framework */; };
+		FF6D4CAB1D67B79A002F6A13 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6D4CAA1D67B79A002F6A13 /* Security.framework */; };
+		FF6D4CAD1D67B7A2002F6A13 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6D4CAC1D67B7A2002F6A13 /* SystemConfiguration.framework */; };
+		FF6D4CAF1D67B7F9002F6A13 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6D4CAE1D67B7F9002F6A13 /* Firebase.framework */; };
+		FF6D4CB11D682E5C002F6A13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6D4CB01D682E5C002F6A13 /* Main.storyboard */; };
+		FF8993B41D5CA81800F5CC6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993B31D5CA81800F5CC6D /* main.m */; };
+		FF8993B71D5CA81900F5CC6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993B61D5CA81900F5CC6D /* AppDelegate.m */; };
+		FF8993C21D5CA81900F5CC6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8993C11D5CA81900F5CC6D /* Assets.xcassets */; };
+		FF8993C51D5CA81900F5CC6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8993C31D5CA81900F5CC6D /* LaunchScreen.storyboard */; };
+		FF8993CE1D5CCFDC00F5CC6D /* GVGift.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993CD1D5CCFDC00F5CC6D /* GVGift.m */; };
+		FFC1E71C1D5E4657005C4A82 /* GVWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E71B1D5E4657005C4A82 /* GVWelcomeViewController.m */; };
+		FFC1E7261D5F7382005C4A82 /* GVInterestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E7251D5F7382005C4A82 /* GVInterestsViewController.m */; };
+		FFC1E7291D5F7CCC005C4A82 /* GVInterestsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E7281D5F7CCC005C4A82 /* GVInterestsCollectionViewCell.m */; };
+		FFC1E72C1D5F8448005C4A82 /* UIImage+GVGiftlyViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E72B1D5F8448005C4A82 /* UIImage+GVGiftlyViewer.m */; };
+		FFC1E7311D5F8E26005C4A82 /* GVInterestsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC1E7301D5F8E26005C4A82 /* GVInterestsCollectionViewCell.xib */; };
+		FFC1E7341D5FA0B4005C4A82 /* GVCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E7331D5FA0B4005C4A82 /* GVCollectionViewFlowLayout.m */; };
+		FFC1E7371D60B1D3005C4A82 /* GVSwipeGiftsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E7361D60B1D3005C4A82 /* GVSwipeGiftsViewController.m */; };
+		FFC1E73A1D60B222005C4A82 /* GVGiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E7391D60B222005C4A82 /* GVGiftView.m */; };
+		FFC1E7481D65FF7A005C4A82 /* GVGiftsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E7471D65FF7A005C4A82 /* GVGiftsTableViewController.m */; };
+		FFC1E7531D660878005C4A82 /* GVGiftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E7511D660878005C4A82 /* GVGiftTableViewCell.m */; };
+		FFC1E7541D660878005C4A82 /* GVGiftTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC1E7521D660878005C4A82 /* GVGiftTableViewCell.xib */; };
+		FFC1E7571D662225005C4A82 /* GVBuyGiftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC1E7561D662225005C4A82 /* GVBuyGiftViewController.m */; };
+		FFC1E75D1D665AAD005C4A82 /* GVGiftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC1E75C1D665AAD005C4A82 /* GVGiftView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99F7B926CBF036C124C5E426 /* libPods-Gifty Viewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gifty Viewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3872D513DEB8593C651E91D /* Pods-Gifty Viewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gifty Viewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gifty Viewer/Pods-Gifty Viewer.release.xcconfig"; sourceTree = "<group>"; };
+		F7C8359B51D7BA460C7953B4 /* Pods-Gifty Viewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gifty Viewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gifty Viewer/Pods-Gifty Viewer.debug.xcconfig"; sourceTree = "<group>"; };
+		FF1311B01D6860DB003EDA36 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		FF6D4CA11D67910A002F6A13 /* GVGiftStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVGiftStore.h; sourceTree = "<group>"; };
+		FF6D4CA21D67910A002F6A13 /* GVGiftStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVGiftStore.m; sourceTree = "<group>"; };
+		FF6D4CA41D67B77D002F6A13 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		FF6D4CA61D67B788002F6A13 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FF6D4CA81D67B791002F6A13 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FF6D4CAA1D67B79A002F6A13 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FF6D4CAC1D67B7A2002F6A13 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FF6D4CAE1D67B7F9002F6A13 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		FF6D4CB01D682E5C002F6A13 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FF8993AF1D5CA81800F5CC6D /* Gift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8993B31D5CA81800F5CC6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF8993B51D5CA81900F5CC6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF8993B61D5CA81900F5CC6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF8993C11D5CA81900F5CC6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF8993C41D5CA81900F5CC6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF8993C61D5CA81900F5CC6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8993CC1D5CCFDC00F5CC6D /* GVGift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVGift.h; sourceTree = "<group>"; };
+		FF8993CD1D5CCFDC00F5CC6D /* GVGift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVGift.m; sourceTree = "<group>"; };
+		FFC1E71A1D5E4657005C4A82 /* GVWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVWelcomeViewController.h; path = ../GVWelcomeViewController.h; sourceTree = "<group>"; };
+		FFC1E71B1D5E4657005C4A82 /* GVWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVWelcomeViewController.m; path = ../GVWelcomeViewController.m; sourceTree = "<group>"; };
+		FFC1E7241D5F7382005C4A82 /* GVInterestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVInterestsViewController.h; path = ../GVInterestsViewController.h; sourceTree = "<group>"; };
+		FFC1E7251D5F7382005C4A82 /* GVInterestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVInterestsViewController.m; path = ../GVInterestsViewController.m; sourceTree = "<group>"; };
+		FFC1E7271D5F7CCC005C4A82 /* GVInterestsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVInterestsCollectionViewCell.h; sourceTree = "<group>"; };
+		FFC1E7281D5F7CCC005C4A82 /* GVInterestsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVInterestsCollectionViewCell.m; sourceTree = "<group>"; };
+		FFC1E72A1D5F8448005C4A82 /* UIImage+GVGiftlyViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GVGiftlyViewer.h"; sourceTree = "<group>"; };
+		FFC1E72B1D5F8448005C4A82 /* UIImage+GVGiftlyViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GVGiftlyViewer.m"; sourceTree = "<group>"; };
+		FFC1E7301D5F8E26005C4A82 /* GVInterestsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GVInterestsCollectionViewCell.xib; sourceTree = "<group>"; };
+		FFC1E7321D5FA0B4005C4A82 /* GVCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		FFC1E7331D5FA0B4005C4A82 /* GVCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		FFC1E7351D60B1D3005C4A82 /* GVSwipeGiftsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVSwipeGiftsViewController.h; sourceTree = "<group>"; };
+		FFC1E7361D60B1D3005C4A82 /* GVSwipeGiftsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVSwipeGiftsViewController.m; sourceTree = "<group>"; };
+		FFC1E7381D60B222005C4A82 /* GVGiftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVGiftView.h; sourceTree = "<group>"; };
+		FFC1E7391D60B222005C4A82 /* GVGiftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVGiftView.m; sourceTree = "<group>"; };
+		FFC1E73D1D60BDDE005C4A82 /* SwipeGiftViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwipeGiftViewDelegate.h; path = ../SwipeGiftViewDelegate.h; sourceTree = "<group>"; };
+		FFC1E7461D65FF7A005C4A82 /* GVGiftsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVGiftsTableViewController.h; sourceTree = "<group>"; };
+		FFC1E7471D65FF7A005C4A82 /* GVGiftsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVGiftsTableViewController.m; sourceTree = "<group>"; };
+		FFC1E7501D660878005C4A82 /* GVGiftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GVGiftTableViewCell.h; path = ../GVGiftTableViewCell.h; sourceTree = "<group>"; };
+		FFC1E7511D660878005C4A82 /* GVGiftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GVGiftTableViewCell.m; path = ../GVGiftTableViewCell.m; sourceTree = "<group>"; };
+		FFC1E7521D660878005C4A82 /* GVGiftTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GVGiftTableViewCell.xib; path = ../GVGiftTableViewCell.xib; sourceTree = "<group>"; };
+		FFC1E7551D662225005C4A82 /* GVBuyGiftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVBuyGiftViewController.h; sourceTree = "<group>"; };
+		FFC1E7561D662225005C4A82 /* GVBuyGiftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVBuyGiftViewController.m; sourceTree = "<group>"; };
+		FFC1E7581D6624BF005C4A82 /* GVGiftTableViewCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVGiftTableViewCellDelegate.h; sourceTree = "<group>"; };
+		FFC1E75C1D665AAD005C4A82 /* GVGiftView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GVGiftView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8993AC1D5CA81800F5CC6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6D4CAD1D67B7A2002F6A13 /* SystemConfiguration.framework in Frameworks */,
+				FF6D4CAB1D67B79A002F6A13 /* Security.framework in Frameworks */,
+				FF6D4CA91D67B791002F6A13 /* CFNetwork.framework in Frameworks */,
+				FF6D4CAF1D67B7F9002F6A13 /* Firebase.framework in Frameworks */,
+				FF6D4CA71D67B788002F6A13 /* libc++.tbd in Frameworks */,
+				FF6D4CA51D67B77D002F6A13 /* libicucore.tbd in Frameworks */,
+				4E9B4FA6ADB735C849DF6306 /* libPods-Gifty Viewer.a in Frameworks */,
+				FF1311B11D6860DB003EDA36 /* Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4767C601105A597668B1DB4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1311B01D6860DB003EDA36 /* Firebase.framework */,
+				FF6D4CAC1D67B7A2002F6A13 /* SystemConfiguration.framework */,
+				FF6D4CAA1D67B79A002F6A13 /* Security.framework */,
+				FF6D4CA81D67B791002F6A13 /* CFNetwork.framework */,
+				FF6D4CA61D67B788002F6A13 /* libc++.tbd */,
+				FF6D4CA41D67B77D002F6A13 /* libicucore.tbd */,
+				99F7B926CBF036C124C5E426 /* libPods-Gifty Viewer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5EF9D163818C95F803230CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7C8359B51D7BA460C7953B4 /* Pods-Gifty Viewer.debug.xcconfig */,
+				B3872D513DEB8593C651E91D /* Pods-Gifty Viewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF8993A61D5CA81800F5CC6D = {
+			isa = PBXGroup;
+			children = (
+				FF8993B11D5CA81800F5CC6D /* Gifty Viewer */,
+				FF8993B01D5CA81800F5CC6D /* Products */,
+				A5EF9D163818C95F803230CD /* Pods */,
+				4767C601105A597668B1DB4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8993B01D5CA81800F5CC6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8993AF1D5CA81800F5CC6D /* Gift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8993B11D5CA81800F5CC6D /* Gifty Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				FF8993CF1D5CD65900F5CC6D /* Model */,
+				FF8993D01D5CD66600F5CC6D /* Controller */,
+				FFC1E7201D5E545E005C4A82 /* View */,
+				FF8993C11D5CA81900F5CC6D /* Assets.xcassets */,
+				FFC1E73E1D60BDE6005C4A82 /* Protocols */,
+				FFC1E72D1D5F844F005C4A82 /* Categories */,
+				FF8993C31D5CA81900F5CC6D /* LaunchScreen.storyboard */,
+				FF6D4CB01D682E5C002F6A13 /* Main.storyboard */,
+				FF8993C61D5CA81900F5CC6D /* Info.plist */,
+				FF8993B21D5CA81800F5CC6D /* Supporting Files */,
+			);
+			path = "Gifty Viewer";
+			sourceTree = "<group>";
+		};
+		FF8993B21D5CA81800F5CC6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF8993B31D5CA81800F5CC6D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF8993CF1D5CD65900F5CC6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF8993CC1D5CCFDC00F5CC6D /* GVGift.h */,
+				FF8993CD1D5CCFDC00F5CC6D /* GVGift.m */,
+				FF6D4CA11D67910A002F6A13 /* GVGiftStore.h */,
+				FF6D4CA21D67910A002F6A13 /* GVGiftStore.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FF8993D01D5CD66600F5CC6D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF8993B51D5CA81900F5CC6D /* AppDelegate.h */,
+				FF8993B61D5CA81900F5CC6D /* AppDelegate.m */,
+				FFC1E7241D5F7382005C4A82 /* GVInterestsViewController.h */,
+				FFC1E7251D5F7382005C4A82 /* GVInterestsViewController.m */,
+				FFC1E7321D5FA0B4005C4A82 /* GVCollectionViewFlowLayout.h */,
+				FFC1E7331D5FA0B4005C4A82 /* GVCollectionViewFlowLayout.m */,
+				FFC1E71A1D5E4657005C4A82 /* GVWelcomeViewController.h */,
+				FFC1E71B1D5E4657005C4A82 /* GVWelcomeViewController.m */,
+				FFC1E7351D60B1D3005C4A82 /* GVSwipeGiftsViewController.h */,
+				FFC1E7361D60B1D3005C4A82 /* GVSwipeGiftsViewController.m */,
+				FFC1E7461D65FF7A005C4A82 /* GVGiftsTableViewController.h */,
+				FFC1E7471D65FF7A005C4A82 /* GVGiftsTableViewController.m */,
+				FFC1E7551D662225005C4A82 /* GVBuyGiftViewController.h */,
+				FFC1E7561D662225005C4A82 /* GVBuyGiftViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FFC1E7201D5E545E005C4A82 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFC1E7501D660878005C4A82 /* GVGiftTableViewCell.h */,
+				FFC1E7511D660878005C4A82 /* GVGiftTableViewCell.m */,
+				FFC1E7521D660878005C4A82 /* GVGiftTableViewCell.xib */,
+				FFC1E7271D5F7CCC005C4A82 /* GVInterestsCollectionViewCell.h */,
+				FFC1E7281D5F7CCC005C4A82 /* GVInterestsCollectionViewCell.m */,
+				FFC1E7301D5F8E26005C4A82 /* GVInterestsCollectionViewCell.xib */,
+				FFC1E7381D60B222005C4A82 /* GVGiftView.h */,
+				FFC1E7391D60B222005C4A82 /* GVGiftView.m */,
+				FFC1E75C1D665AAD005C4A82 /* GVGiftView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FFC1E72D1D5F844F005C4A82 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FFC1E72A1D5F8448005C4A82 /* UIImage+GVGiftlyViewer.h */,
+				FFC1E72B1D5F8448005C4A82 /* UIImage+GVGiftlyViewer.m */,
+				FF6D4CAE1D67B7F9002F6A13 /* Firebase.framework */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		FFC1E73E1D60BDE6005C4A82 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FFC1E7581D6624BF005C4A82 /* GVGiftTableViewCellDelegate.h */,
+				FFC1E73D1D60BDDE005C4A82 /* SwipeGiftViewDelegate.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8993AE1D5CA81800F5CC6D /* Gift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8993C91D5CA81900F5CC6D /* Build configuration list for PBXNativeTarget "Gift" */;
+			buildPhases = (
+				5D88972B3E0789CAF477D225 /* [CP] Check Pods Manifest.lock */,
+				FF8993AB1D5CA81800F5CC6D /* Sources */,
+				FF8993AC1D5CA81800F5CC6D /* Frameworks */,
+				FF8993AD1D5CA81800F5CC6D /* Resources */,
+				6AB5CE73B8F001B3B315419B /* [CP] Embed Pods Frameworks */,
+				ECC2770F7539FEE751B99A18 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gift;
+			productName = "Gifty Viewer";
+			productReference = FF8993AF1D5CA81800F5CC6D /* Gift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8993A71D5CA81800F5CC6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = home;
+				TargetAttributes = {
+					FF8993AE1D5CA81800F5CC6D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6KKRC5GQMV;
+					};
+				};
+			};
+			buildConfigurationList = FF8993AA1D5CA81800F5CC6D /* Build configuration list for PBXProject "Gifty Viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8993A61D5CA81800F5CC6D;
+			productRefGroup = FF8993B01D5CA81800F5CC6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8993AE1D5CA81800F5CC6D /* Gift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8993AD1D5CA81800F5CC6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC1E7541D660878005C4A82 /* GVGiftTableViewCell.xib in Resources */,
+				FF8993C51D5CA81900F5CC6D /* LaunchScreen.storyboard in Resources */,
+				FFC1E7311D5F8E26005C4A82 /* GVInterestsCollectionViewCell.xib in Resources */,
+				FF6D4CB11D682E5C002F6A13 /* Main.storyboard in Resources */,
+				FFC1E75D1D665AAD005C4A82 /* GVGiftView.xib in Resources */,
+				FF8993C21D5CA81900F5CC6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D88972B3E0789CAF477D225 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6AB5CE73B8F001B3B315419B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gifty Viewer/Pods-Gifty Viewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC2770F7539FEE751B99A18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gifty Viewer/Pods-Gifty Viewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF8993AB1D5CA81800F5CC6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC1E73A1D60B222005C4A82 /* GVGiftView.m in Sources */,
+				FF8993CE1D5CCFDC00F5CC6D /* GVGift.m in Sources */,
+				FFC1E7571D662225005C4A82 /* GVBuyGiftViewController.m in Sources */,
+				FFC1E7341D5FA0B4005C4A82 /* GVCollectionViewFlowLayout.m in Sources */,
+				FF6D4CA31D67910A002F6A13 /* GVGiftStore.m in Sources */,
+				FFC1E7371D60B1D3005C4A82 /* GVSwipeGiftsViewController.m in Sources */,
+				FFC1E7261D5F7382005C4A82 /* GVInterestsViewController.m in Sources */,
+				FFC1E71C1D5E4657005C4A82 /* GVWelcomeViewController.m in Sources */,
+				FF8993B71D5CA81900F5CC6D /* AppDelegate.m in Sources */,
+				FFC1E7531D660878005C4A82 /* GVGiftTableViewCell.m in Sources */,
+				FFC1E7481D65FF7A005C4A82 /* GVGiftsTableViewController.m in Sources */,
+				FF8993B41D5CA81800F5CC6D /* main.m in Sources */,
+				FFC1E7291D5F7CCC005C4A82 /* GVInterestsCollectionViewCell.m in Sources */,
+				FFC1E72C1D5F8448005C4A82 /* UIImage+GVGiftlyViewer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF8993C31D5CA81900F5CC6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8993C41D5CA81900F5CC6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8993C71D5CA81900F5CC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF8993C81D5CA81900F5CC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF8993CA1D5CA81900F5CC6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C8359B51D7BA460C7953B4 /* Pods-Gifty Viewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Gifty",
+					Viewer,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Gifty Viewer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayadios.gift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FF8993CB1D5CA81900F5CC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3872D513DEB8593C651E91D /* Pods-Gifty Viewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Gifty",
+					Viewer,
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Gifty Viewer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayadios.gift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF8993AA1D5CA81800F5CC6D /* Build configuration list for PBXProject "Gifty Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8993C71D5CA81900F5CC6D /* Debug */,
+				FF8993C81D5CA81900F5CC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8993C91D5CA81900F5CC6D /* Build configuration list for PBXNativeTarget "Gift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8993CA1D5CA81900F5CC6D /* Debug */,
+				FF8993CB1D5CA81900F5CC6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8993A71D5CA81800F5CC6D /* Project object */;
+}
