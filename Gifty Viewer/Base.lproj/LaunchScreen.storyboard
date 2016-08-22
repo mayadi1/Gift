@@ -16,7 +16,18 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gift-voucher" translatesAutoresizingMaskIntoConstraints="NO" id="gc6-d9-tCr">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gc6-d9-tCr" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1tV-gT-ag5"/>
+                            <constraint firstAttribute="trailing" secondItem="gc6-d9-tCr" secondAttribute="trailing" id="Hjp-fK-ive"/>
+                            <constraint firstItem="gc6-d9-tCr" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="t9v-YX-1QV"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="gc6-d9-tCr" secondAttribute="bottom" id="xtk-Zf-TSB"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +35,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="gift-voucher" width="2048" height="1536"/>
+    </resources>
 </document>
